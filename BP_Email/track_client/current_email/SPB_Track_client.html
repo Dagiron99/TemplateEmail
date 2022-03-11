@@ -78,7 +78,13 @@
                             </td>
                         </tr>
 
-
+                        <tr>
+                            <td style="background-color: #ffffff;">
+                                <p style="margin:16px 0px 0px 0px; text-align: center; padding: 0px 40px 0px 40px;font-weight: bold;font-family: 'Roboto', sans-serif; font-size: 19px; line-height: 21px; color: #000000; ">
+                                    Здравствуйте, {=Document:CONTACT.LAST_NAME} {=Document:CONTACT.NAME} {=Document:CONTACT.SECOND_NAME}
+                                </p>
+                            </td>
+                        </tr>
                         <tr>
                             <td style="background-color: #ffffff;font-size: 0; line-height: 0;" height="32">&nbsp;</td>
                         </tr>
@@ -166,10 +172,24 @@
                                                     кнопке</b>
 
                                             </p>
-
+                                            
+ 
                                         </td>
                                     </tr>
-
+                                    <tr>
+                                        <td style="background-color: #EFF5E0; padding: 0px 40px 0px 40px; ">
+                                            <p style="text-align: left; margin: 16px 0px 0px 0px; font-weight: bold;font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 21px; color: #000000;  ">
+                                                Ваш персональный менеджер:
+                                            </p>
+                                            <p style="text-align: left; margin: 0px 0px 16px 0px;font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 16px; color: #000000;  ">
+                                                
+                                                {=Document:ASSIGNED_BY.LAST_NAME} {=Document:ASSIGNED_BY.NAME} {=Document:ASSIGNED_BY.SECOND_NAME}<br>
+                                                <br>Телефон для связи: +7 (499) 938-65-60 доб.  {=Document:ASSIGNED_BY.UF_PHONE_INNER}
+                                                
+                                             
+                                            </p>
+                                        </td>
+                                    </tr>
 
                                 </table>
                             </td>
